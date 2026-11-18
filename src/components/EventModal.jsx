@@ -124,7 +124,7 @@ export function EventModal({ event, onClose, onSubmit }) {
             type="text"
             value={form.name}
             onChange={(e) => setField('name')(e.target.value)}
-            placeholder={'Masalan: Azizbekning tug‘ilgan kuni'}
+            placeholder={'Masalan: Yakuniy imtihon'}
             maxLength={NAME_MAX + 10}
             autoComplete="off"
             aria-invalid={errors.name ? 'true' : undefined}
