@@ -1,0 +1,28 @@
+{
+  "name": "daycounter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DayCounter — muhim sanalargacha qolgan vaqtni ko'rsatuvchi premium countdown web ilovasi",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "countdown",
+    "react",
+    "vite",
+    "daycounter"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^1.75.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "vite": "^8.3.8"
+  }
+}
